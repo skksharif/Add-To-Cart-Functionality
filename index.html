@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__heading">BashaZon</h1>
+        <button class="header__cartbtn" id="cartBtn">Cart (<span id="cartCount">0</span>)</button>
+    </header>
+    
+    <main>
+        <section class="products">
+            <div class="product" data-id="1" data-name="Product 1" data-price="999" data-img="./images/product1.webp">
+                <img class="product__image" src="./images/product1.webp" alt="Product 1">
+                <h2 class="product__name">Product 1</h2>
+                <p class="product__price">Rs 999/-</p>
+                <div class="product__cartopt--overlay">
+                    <div class="product__quantity">
+                        <button class="product__decrease">-</button>
+                        <input type="number" class="product__quantity-input" value="1" min="1" >
+                        <button class="product__increase">+</button>
+                    </div>
+                    <button class="product__add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product" data-id="2" data-name="Product 2" data-price="1499" data-img="./images/product1.webp">
+                <img class="product__image" src="./images/product1.webp" alt="Product 2">
+                <h2 class="product__name">Product 2</h2>
+                <p class="product__price">Rs 1499/-</p>
+                <div class="product__cartopt--overlay">
+                    <div class="product__quantity">
+                        <button class="product__decrease">-</button>
+                        <input type="number" class="product__quantity-input" value="1" min="1" >
+                        <button class="product__increase">+</button>
+                    </div>
+                    <button class="product__add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product" data-id="3" data-name="Product 3" data-price="2999" data-img="./images/product1.webp">
+                <img class="product__image" src="./images/product1.webp" alt="Product 3">
+                <h2 class="product__name">Product 3</h2>
+                <p class="product__price">Rs 2999/-</p>
+                <div class="product__cartopt--overlay">
+                    <div class="product__quantity">
+                        <button class="product__decrease">-</button>
+                        <input type="number" class="product__quantity-input" value="1" min="1" >
+                        <button class="product__increase">+</button>
+                    </div>
+                    <button class="product__add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product" data-id="4" data-name="Product 4" data-price="4999" data-img="./images/product1.webp">
+                <img class="product__image" src="./images/product1.webp" alt="Product 4">
+                <h2 class="product__name">Product 4</h2>
+                <p class="product__price">Rs 4999/-</p>
+                <div class="product__cartopt--overlay">
+                    <div class="product__quantity">
+                        <button class="product__decrease">-</button>
+                        <input type="number" class="product__quantity-input" value="1" min="1" >
+                        <button class="product__increase">+</button>
+                    </div>
+                    <button class="product__add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product" data-id="5" data-name="Product 5" data-price="6999" data-img="./images/product1.webp">
+                <img class="product__image" src="./images/product1.webp" alt="Product 5">
+                <h2 class="product__name">Product 5</h2>
+                <p class="product__price">Rs 6999/-</p>
+                <div class="product__cartopt--overlay">
+                    <div class="product__quantity">
+                        <button class="product__decrease">-</button>
+                        <input type="number" class="product__quantity-input" value="1" min="1" >
+                        <button class="product__increase">+</button>
+                    </div>
+                    <button class="product__add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product" data-id="6" data-name="Product 6" data-price="8999" data-img="./images/product1.webp">
+                <img class="product__image" src="./images/product1.webp" alt="Product 6">
+                <h2 class="product__name">Product 6</h2>
+                <p class="product__price">Rs 8999/-</p>
+                <div class="product__cartopt--overlay">
+                    <div class="product__quantity">
+                        <button class="product__decrease">-</button>
+                        <input type="number" class="product__quantity-input" value="1" min="1" >
+                        <button class="product__increase">+</button>
+                    </div>
+                    <button class="product__add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product" data-id="7" data-name="Product 7" data-price="10999" data-img="./images/product1.webp">
+                <img class="product__image" src="./images/product1.webp" alt="Product 7">
+                <h2 class="product__name">Product 7</h2>
+                <p class="product__price">Rs 10999/-</p>
+                <div class="product__cartopt--overlay">
+                    <div class="product__quantity">
+                        <button class="product__decrease">-</button>
+                        <input type="number" class="product__quantity-input" value="1" min="1" >
+                        <button class="product__increase">+</button>
+                    </div>
+                    <button class="product__add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product" data-id="8" data-name="Product 8" data-price="12999" data-img="./images/product1.webp">
+                <img class="product__image" src="./images/product1.webp" alt="Product 8">
+                <h2 class="product__name">Product 8</h2>
+                <p class="product__price">Rs 12999/-</p>
+                <div class="product__cartopt--overlay">
+                    <div class="product__quantity">
+                        <button class="product__decrease">-</button>
+                        <input type="number" class="product__quantity-input" value="1" min="1" >
+                        <button class="product__increase">+</button>
+                    </div>
+                    <button class="product__add-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Cart Sidebar -->
+    <aside class="cart-sidebar" id="cartSidebar">
+        <div class="card-sidebar__header">
+            <h2 class="card-sidebar__heading">Cart</h2>
+            <button class="card-sidebar__close" id="closeCartBtn">&times;</button>
+        </div>
+        <div id="cartItems"></div>
+    </aside>
+
+    <script src="./script.js"></script>
+</body>
+</html>
